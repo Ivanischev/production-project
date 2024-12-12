@@ -1,0 +1,16 @@
+.Navbar {
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--bg-color-primary);
+  border-bottom: 1px solid var(--divider-color);
+  display: flex;
+  align-items: center;
+  padding: var(--container-padding);
+  justify-content: space-between;
+}
+
+.links {
+  a {
+    padding: 0 12px;
+  }
+}
